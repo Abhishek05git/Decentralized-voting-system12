@@ -1,22 +1,23 @@
-Decentralised Voting (dVoting)
+Decentralised Voting (dVoting)    
 A decentralised voting system based on Ethereum blockchain technology.
 
-This started as a final year project for the IT Degree that I was/am pursuing, now aiming to make this more than that.
+This started as a final year project for the BTECH(CSE) Degree that I was/am pursuing, now aiming to make this more than that.
 
-System Workflow
-A brief explanation on the basic workflow of the application.
+System Workflow  
 
-Admin will create a voting instance by launching/deploying the system in a blockchain network (EVM), then create an election instance and start the election with the details of the election filled in (including candidates for voters to vote).
+ Brief explanation on the basic workflow of the application.
 
-Then the likely voters connect to the same blockchain network register to become a voter. Once the users successfully register, their respective details are sent/displayed in the admins' panel (i.e. verification page).
+1. Admin will create a voting instance by launching/deploying the system in a blockchain network (EVM), then create an election instance and start the election with the details of the election filled in (including candidates for voters to vote).
 
-The admin then will check if the registration information (blockchain account address, name, and phone number) is valid and matches with his record. If yes, then the admin approves the registered user making them eligible to take part and cast their respective vote in the election.
+2. Then the likely voters connect to the same blockchain network register to become a voter. Once the users successfully register, their respective details are sent/displayed in the admins' panel (i.e. verification page).
 
-The registered user (voter) following the approval from the admin casts their vote to the candidate of interest (from the voting page).
+3. The admin then will check if the registration information (blockchain account address, name, and phone number) is valid and matches with his record. If yes, then the admin approves the registered user making them eligible to take part and cast their respective vote in the election.
 
-After some time, depending on the scale of the election the admin ends the election. As that happens the voting is closed and the results are displayed announcing the winner at the top of the results page.
+4. The registered user (voter) following the approval from the admin casts their vote to the candidate of interest (from the voting page).
 
-See demo here.
+5. After some time, depending on the scale of the election the admin ends the election. As that happens the voting is closed and the results are displayed announcing the winner at the top of the results page.
+
+
 
 Setting up the development environment
 Requirements
